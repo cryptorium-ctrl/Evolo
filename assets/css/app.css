@@ -1,0 +1,117 @@
+/*Imports*/
+@import url('reset.css');
+@import url('header.css');
+@import url('cards.css');
+@import url('form-section.css');
+
+/*General*/
+.container {
+	max-width: 1220px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+/*Sections*/
+
+/*===== section cards =====*/
+.cards {
+	padding: 100px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+}
+
+.cards__head p {
+	max-width: 600px;
+	display: inline-block;
+}
+/*===============*/
+
+/*==== section basic ===========*/
+.basic {
+	padding: 100px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.basic__content {
+	text-align: left;
+	min-width: 700px;
+
+}
+
+.basic__content h2, .basic__content p {
+	max-width: 500px;
+}
+
+
+.basic__image {
+	min-width: 700px;
+	text-align: left;
+}
+
+.basic__image img {
+	max-width: 500px;
+}
+
+.basic__list {
+	text-align: left;
+
+}
+
+.basic__list li {
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	font-size: 15px;
+}
+
+.basic__list i {
+	padding-right: 10px;
+}
+
+.basic__list span>span {
+	font-weight: bold;
+}
+
+i.checked {
+	color: #00bfd8;
+}
+/*===========*/
+
+/*==== Buttons ==========*/
+
+.btn {
+	padding: 15px 42px;
+	border-radius: 32px;
+	background-color: #00bfd8;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bolder;
+	transition: 0.3s;
+	border: 2px solid #00bfd8;
+	cursor: pointer;
+	outline: none;
+}
+
+.btn--large {
+	width: 80%;
+	display: block;
+} 
+
+.btn:hover {
+	background-color: #fff;
+	color: #00bfd8;
+}
+
+.button-wrap {
+	position: absolute;
+	bottom: -25px;
+	left: 88px;
+}
+
